@@ -5,11 +5,11 @@ public class gcd {
         int a=6;
         int b=9;
 
-        System.out.println(gcd(a,b));
+        System.out.println(gcdd(a,b));
     }
-public static int gcd(int a,int b){
+public static int gcdd(int a,int b){
     if(b!=0){
-        return gcd(b,a%b);
+        return gcdd(b,a%b);
     }else{
         return a;
     }
