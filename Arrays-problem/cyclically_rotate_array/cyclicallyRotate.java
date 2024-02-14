@@ -19,5 +19,36 @@ public class cyclicallyRotate {
         for(int i=0;i<n;i++){
             System.out.print(arr[i]+" ");
         }
+
+
+         System.out.println();
+
+        //second approach.
+
+    
+         int m=5;
+        int [] arr1={1,2,3,4,5};
+
+
+        reverse(arr1,0,m-1,m);
+         reverse(arr1,1,m-1,m);
+
+
+        for(int i=0;i<m;i++){
+            System.out.print(arr1[i]+" ");
+        }
+        
+    }
+
+    public static void reverse(int [] arr, int start, int end, int n){
+        
+        while(start<=end){
+            int temp=arr[start];
+            arr[start]=arr[end];
+            arr[end]=temp;
+            
+            start++;
+            end--;
+        }
     }
 }
