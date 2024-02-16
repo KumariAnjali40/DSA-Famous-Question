@@ -1,4 +1,4 @@
-// package Binary_search.findMinInSortedArray;
+package Binary_search.findMinInSortedArray;
 
 public class findMin {
     public static void main(String[] args) {
