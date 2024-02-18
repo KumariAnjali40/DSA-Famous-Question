@@ -1,4 +1,4 @@
-// package Greedy.BagOfToken;
+package Greedy.BagOfToken;
 
 import java.util.Arrays;
 
