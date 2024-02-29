@@ -1,4 +1,4 @@
-// package Recurssion.maxOfArray;
+package Recurssion.maxOfArray;
 
 public class maxOfArray {
     public static void main(String[] args) {

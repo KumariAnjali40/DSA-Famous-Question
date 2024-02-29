@@ -1,6 +1,5 @@
-// package Recurssion.firstOccuranceOfIndex;
+package Recurssion.firstOccuranceOfIndex;
 
-import java.util.Arrays;
 
 public class firstOccuranceOfind {
     public static void main(String[] args) {
