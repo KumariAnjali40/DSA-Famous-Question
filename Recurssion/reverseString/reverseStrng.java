@@ -8,7 +8,7 @@ public class reverseStrng {
 
         System.out.println(rev);
     }
-
+    
     public static String reverseString(String s){
         if(s.isEmpty() || s.length()==1){
             return s;
