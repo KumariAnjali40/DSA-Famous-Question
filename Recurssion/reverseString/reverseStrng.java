@@ -1,4 +1,4 @@
-// package Recurssion.reverseString;
+package Recurssion.reverseString;
 
 public class reverseStrng {
     public static void main(String[] args) {
